@@ -69,8 +69,8 @@
 
         </Grid>
         <CheckBox x:Name="chkWarranty" Content="Extra Warranty" HorizontalAlignment="Left" Margin="24,282,0,0" VerticalAlignment="Top" Height="15" Width="97"/>
-        <CheckBox x:Name="chkAgain" Content="More Bikes" HorizontalAlignment="Left" Margin="24,302,0,0" VerticalAlignment="Top" Height="15" Width="79"/>
         <Button Content="Add To Cart" Grid.Column="1" HorizontalAlignment="Left" Margin="62,284,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <DataGrid Grid.Column="2" HorizontalAlignment="Left" Height="235" Margin="10,10,0,0" VerticalAlignment="Top" Width="317"/>
 
     </Grid>
 </Window>
