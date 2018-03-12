@@ -1,0 +1,15 @@
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\bin\Debug\buildABike.exe.config
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\bin\Debug\buildABike.exe
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\bin\Debug\buildABike.pdb
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike.csprojResolveAssemblyReference.cache
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\MainWindow.g.cs
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\App.g.cs
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike_MarkupCompile.cache
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike_MarkupCompile.lref
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\MainWindow.baml
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike.g.resources
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike.Properties.Resources.resources
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike.csproj.GenerateResource.Cache
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike.csproj.CoreCompileInputs.cache
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike.exe
+C:\Users\ovidi\Desktop\uni y2\SEM\cw\buildABike\buildABike\obj\Debug\buildABike.pdb

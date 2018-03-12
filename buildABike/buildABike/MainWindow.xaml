@@ -1,0 +1,76 @@
+﻿<Window x:Class="buildABike.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:buildABike"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="390" Width="833.728">
+    <Grid x:Name="wheelsGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="229*"/>
+            <ColumnDefinition Width="260*"/>
+            <ColumnDefinition Width="337*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblComp" Content="Choose your components:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="149"/>
+        <Grid x:Name="frameGrid" Margin="24,41,22,203">
+            <GroupBox Header="Frame" HorizontalAlignment="Left" Height="105" VerticalAlignment="Top" Width="177"/>
+            <ComboBox x:Name="cboxFrameColour" HorizontalAlignment="Left" Margin="21,59,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
+                <ComboBoxItem Content="Colour" IsEnabled="False" HorizontalAlignment="Center"/>
+                <ComboBoxItem Content="Magenta"/>
+                <ComboBoxItem Content="Cyan"/>
+                <ComboBoxItem Content="Amber"/>
+            </ComboBox>
+            <ComboBox x:Name="cboxFrameSize" HorizontalAlignment="Left" Margin="21,28,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
+                <ComboBoxItem Content="Size" IsEnabled="False" HorizontalAlignment="Center"/>
+                <ComboBoxItem Content="Small"/>
+                <ComboBoxItem Content="Medium"/>
+                <ComboBoxItem Content="Large"/>
+            </ComboBox>
+
+        </Grid>
+        <Grid x:Name="grSetGrid" Margin="24,161,10,82">
+            <GroupBox Header="Group Set" HorizontalAlignment="Left" Height="105" VerticalAlignment="Top" Width="176"/>
+            <ComboBox x:Name="cboxBrakes" HorizontalAlignment="Left" Margin="24,57,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
+                <ComboBoxItem Content="Brakes" IsEnabled="False" HorizontalAlignment="Center"/>
+                <ComboBoxItem Content="V-Brakes"/>
+                <ComboBoxItem Content="Disk Brakes"/>
+            </ComboBox>
+            <ComboBox x:Name="cboxGears" HorizontalAlignment="Left" Margin="24,26,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
+                <ComboBoxItem Content="Gears" IsEnabled="False" HorizontalAlignment="Center"/>
+                <ComboBoxItem Content="Small"/>
+                <ComboBoxItem Content="Medium"/>
+                <ComboBoxItem Content="Large"/>
+            </ComboBox>
+        </Grid>
+        <Grid x:Name="wheelsGrid1" Margin="34,41,10,212" Grid.Column="1">
+            <GroupBox Header="Wheels" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="183"/>
+            <ComboBox x:Name="cboxSize" HorizontalAlignment="Left" Margin="24,26,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
+                <ComboBoxItem Content="Size" IsEnabled="False" HorizontalAlignment="Center"/>
+                <ComboBoxItem Content="26&quot;"/>
+                <ComboBoxItem Content="27.5&quot;"/>
+                <ComboBoxItem Content="29&quot;"/>
+            </ComboBox>
+
+        </Grid>
+        <Grid x:Name="finishGrid" Grid.Column="1" Margin="38,161,10,82">
+            <GroupBox Header="Finishing Set" HorizontalAlignment="Left" Height="105" VerticalAlignment="Top" Width="177"/>
+            <ComboBox x:Name="cboxSaddle" HorizontalAlignment="Left" Margin="24,57,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
+                <ComboBoxItem Content="Saddle" IsEnabled="False" HorizontalAlignment="Center"/>
+                <ComboBoxItem Content="Small"/>
+                <ComboBoxItem Content="Large"/>
+            </ComboBox>
+            <ComboBox x:Name="cboxHandle" HorizontalAlignment="Left" Margin="24,26,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
+                <ComboBoxItem Content="Handlebar" IsEnabled="False" HorizontalAlignment="Center"/>
+                <ComboBoxItem Content="Small"/>
+                <ComboBoxItem Content="Medium"/>
+                <ComboBoxItem Content="Large"/>
+            </ComboBox>
+
+        </Grid>
+        <CheckBox x:Name="chkWarranty" Content="Extra Warranty" HorizontalAlignment="Left" Margin="24,282,0,0" VerticalAlignment="Top" Height="15" Width="97"/>
+        <CheckBox x:Name="chkAgain" Content="More Bikes" HorizontalAlignment="Left" Margin="24,302,0,0" VerticalAlignment="Top" Height="15" Width="79"/>
+        <Button Content="Add To Cart" Grid.Column="1" HorizontalAlignment="Left" Margin="62,284,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+
+    </Grid>
+</Window>
