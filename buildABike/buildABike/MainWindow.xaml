@@ -45,7 +45,7 @@
         </Grid>
         <Grid x:Name="wheelsGrid1" Margin="34,41,10,212" Grid.Column="1">
             <GroupBox Header="Wheels" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="183"/>
-            <ComboBox x:Name="cboxSize" HorizontalAlignment="Left" Margin="24,26,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
+            <ComboBox x:Name="cboxWheels" HorizontalAlignment="Left" Margin="24,26,0,0" VerticalAlignment="Top" Width="120" Height="26" SelectedIndex="0">
                 <ComboBoxItem Content="Size" IsEnabled="False" HorizontalAlignment="Center"/>
                 <ComboBoxItem Content="26&quot;"/>
                 <ComboBoxItem Content="27.5&quot;"/>
@@ -68,9 +68,17 @@
             </ComboBox>
 
         </Grid>
-        <CheckBox x:Name="chkWarranty" Content="Extra Warranty" HorizontalAlignment="Left" Margin="24,282,0,0" VerticalAlignment="Top" Height="15" Width="97"/>
-        <Button Content="Add To Cart" Grid.Column="1" HorizontalAlignment="Left" Margin="62,284,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
-        <DataGrid Grid.Column="2" HorizontalAlignment="Left" Height="235" Margin="10,10,0,0" VerticalAlignment="Top" Width="317"/>
+        <CheckBox x:Name="chkWarranty" Content="Extra Warranty" HorizontalAlignment="Left" Margin="24,282,0,0" VerticalAlignment="Top" Height="15" Width="97" Checked="chkWarranty_Checked" Unchecked="chkWarranty_Unchecked"/>
+        <Button x:Name="btnAdd" Content="Add To Cart" Grid.Column="1" HorizontalAlignment="Left" Margin="62,284,0,0" VerticalAlignment="Top" Width="120" Height="26" Click="btnAdd_Click"/>
+        <DataGrid x:Name="dgridBikes" Grid.Column="2" HorizontalAlignment="Left" Height="235" Margin="10,10,0,0" VerticalAlignment="Top" Width="317" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                <DataGridCheckBoxColumn Header="Extra Warranty" Binding="{Binding ExtraWarranty}" Width="100"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="*"/>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label x:Name="lblPrice" Content="Total Price:" Grid.Column="2" HorizontalAlignment="Left" Margin="145,250,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
