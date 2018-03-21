@@ -18,6 +18,7 @@ namespace Business
         private bool extraWarranty = false;
         private double price;
 
+        public Bike() { }
         public Bike(int fs, int fc, int g, int b, int w, int h, int s)
         {
             FrameSize = fs;
