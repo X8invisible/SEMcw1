@@ -1,0 +1,15 @@
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\b\buildABike\bin\Debug\buildABike.exe.config
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\b\buildABike\bin\Debug\buildABike.exe
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\b\buildABike\bin\Debug\buildABike.pdb
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike.csprojResolveAssemblyReference.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\MainWindow.g.cs
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\App.g.cs
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike_MarkupCompile.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike_MarkupCompile.lref
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\MainWindow.baml
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike.g.resources
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike.Properties.Resources.resources
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike.csproj.GenerateResource.Cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike.csproj.CoreCompileInputs.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike.exe
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABike\Debug\buildABike.pdb

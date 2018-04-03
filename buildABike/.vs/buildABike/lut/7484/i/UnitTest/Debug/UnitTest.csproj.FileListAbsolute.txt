@@ -1,0 +1,6 @@
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\b\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\b\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\UnitTest\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\UnitTest\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\UnitTest\Debug\UnitTest.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\UnitTest\Debug\UnitTest.pdb

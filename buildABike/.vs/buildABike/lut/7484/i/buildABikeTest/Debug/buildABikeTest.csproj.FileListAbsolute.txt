@@ -1,0 +1,6 @@
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\b\buildABikeTest\bin\Debug\buildABikeTest.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\b\buildABikeTest\bin\Debug\buildABikeTest.pdb
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABikeTest\Debug\buildABikeTest.csprojResolveAssemblyReference.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABikeTest\Debug\buildABikeTest.csproj.CoreCompileInputs.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABikeTest\Debug\buildABikeTest.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\.vs\buildABike\lut\0\i\buildABikeTest\Debug\buildABikeTest.pdb

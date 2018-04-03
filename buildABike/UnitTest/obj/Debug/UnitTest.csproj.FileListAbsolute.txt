@@ -1,0 +1,9 @@
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\bin\Debug\Business.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\bin\Debug\Business.pdb
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\UnitTest\obj\Debug\UnitTest.pdb

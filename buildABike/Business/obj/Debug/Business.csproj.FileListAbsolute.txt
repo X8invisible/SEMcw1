@@ -1,0 +1,6 @@
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\Business\bin\Debug\Business.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\Business\bin\Debug\Business.pdb
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\Business\obj\Debug\Business.dll
+C:\Users\ovidi\Desktop\uni y2\repos\SEMcw1\buildABike\Business\obj\Debug\Business.pdb
