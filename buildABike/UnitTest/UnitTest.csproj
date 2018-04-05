@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="BikeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StocksTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj">

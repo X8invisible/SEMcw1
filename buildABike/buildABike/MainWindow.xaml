@@ -79,7 +79,9 @@
             </DataGrid.Columns>
         </DataGrid>
         <Label x:Name="lblPrice" Content="Total Price:" Grid.Column="2" HorizontalAlignment="Left" Margin="162,245,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnAdd_Copy" Content="Confirm Order" Grid.Column="2" HorizontalAlignment="Left" Margin="95,284,0,0" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Button x:Name="btnConfirm" Content="Confirm Order" Grid.Column="2" HorizontalAlignment="Left" Margin="10,284,0,0" VerticalAlignment="Top" Width="120" Height="26" Click="btnConfirm_Click"/>
+        <Label x:Name="lblDelivery" Content="Delivery time:" Grid.Column="2" HorizontalAlignment="Left" Margin="10,245,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnDelete" Content="Delete Item" Grid.Column="2" HorizontalAlignment="Left" Margin="192,284,0,0" VerticalAlignment="Top" Width="120" Height="26" Click="btnDelete_Click"/>
 
     </Grid>
 </Window>

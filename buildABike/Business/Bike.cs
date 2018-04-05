@@ -17,6 +17,7 @@ namespace Business
         private int saddle;
         private bool extraWarranty = false;
         private double price;
+        private int hours;
 
         public Bike() { }
         public Bike(int fs, int fc, int g, int b, int w, int h, int s)
@@ -36,6 +37,7 @@ namespace Business
         }
         public string Name
         {
+            //name of fictional brand
             get { return "Maverick"; }
         }
         public int FrameSize
@@ -121,13 +123,27 @@ namespace Business
                 return price;
             }
         }
-
+        public int Hours
+        {
+            get
+            {
+                Delivery();
+                return hours;
+            }
+        }
         public void TotalPrice()
         {
             price = 100;
             if (extraWarranty)
                 price += 50;
             price = price + frameSize * 70 + 25 + 50 * (gears + brakes / 2) + 35 * (wheels / 2) + 30 * (handlebar / 2) + 25 * (saddle / 2);
+        }
+
+        public void Delivery()
+        {
+            //3 day minimum
+            hours = 72;
+            hours = hours + frameSize + gears + brakes + handlebar + wheels;
         }
     }
 }

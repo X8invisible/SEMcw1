@@ -21,8 +21,11 @@ namespace buildABike
     /// </summary>
     public partial class MainWindow : Window
     {
+        Stocks instance = Stocks.Instance;
         private bool warranty = false;
         private double total = 0;
+        private int days = 0;
+        private int hours = 0;
         private List<Bike> bikes = new List<Bike>();
         public MainWindow()
         {
@@ -38,15 +41,35 @@ namespace buildABike
             }
             lblPrice.Content = "Total Price: £" + total.ToString();
         }
+          public void UpdateDelivery()
+        {
+            days = 0; hours = 0;
+            foreach(Bike b in bikes)
+            {
+                hours += b.Hours;
+            }
+            days = hours / 24;
+            hours = hours % 24;
+            lblDelivery.Content = "Delivery time: "+ days.ToString() +"d " + hours.ToString()+"hr";
+        }
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             try
             {
                 Bike bike = new Bike(cboxFrameSize.SelectedIndex, cboxFrameColour.SelectedIndex, cboxGears.SelectedIndex,
-               cboxBrakes.SelectedIndex, cboxWheels.SelectedIndex, cboxHandle.SelectedIndex, cboxSaddle.SelectedIndex, warranty);
-                bikes.Add(bike);
-                dgridBikes.Items.Refresh();
-                UpdatePrice();
+                cboxBrakes.SelectedIndex, cboxWheels.SelectedIndex, cboxHandle.SelectedIndex, cboxSaddle.SelectedIndex, warranty);
+                if(instance.UpdateStocks(cboxFrameSize.SelectedIndex, cboxGears.SelectedIndex, cboxBrakes.SelectedIndex, cboxWheels.SelectedIndex, cboxHandle.SelectedIndex, cboxSaddle.SelectedIndex))
+                {
+                    bikes.Add(bike);
+                    dgridBikes.Items.Refresh();
+                    UpdatePrice();
+                    UpdateDelivery();
+                }
+                else
+                {
+                    MessageBox.Show("Not enough stock");
+                }
+                
             }
            catch(Exception ep)
             {
@@ -62,6 +85,31 @@ namespace buildABike
         private void chkWarranty_Unchecked(object sender, RoutedEventArgs e)
         {
             warranty = false;
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            if(dgridBikes.SelectedIndex != -1)
+            {
+                var bikeDel = dgridBikes.SelectedItem as Bike;
+                instance.Revert(bikeDel.FrameSize, bikeDel.Gears, bikeDel.Brakes, bikeDel.Wheels, bikeDel.Handlebar, bikeDel.Saddle);
+                bikes.Remove(bikeDel);
+                dgridBikes.Items.Refresh();
+                UpdatePrice();
+                UpdateDelivery();
+            }
+            else
+            {
+                MessageBox.Show("Please select and item to delete", "No item selected", MessageBoxButton.OK);
+            }
+        }
+
+        private void btnConfirm_Click(object sender, RoutedEventArgs e)
+        {
+            if(bikes.Count > 0)
+            {
+                MessageBox.Show("Thank you for your order! Goodbye");
+            }
         }
     }
 }

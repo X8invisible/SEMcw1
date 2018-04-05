@@ -85,5 +85,13 @@ namespace UnitTest
             int expected = 435;
             Assert.AreEqual(expected, target.Price);
         }
+
+        [TestMethod]
+        public void DeliveryTest()
+        {
+            Bike target = new Bike(1, 1, 1, 2, 2, 2, 2, true);
+            int expected = 80;
+            Assert.AreEqual(expected, target.Hours);
+        }
     }
 }
